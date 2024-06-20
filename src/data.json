@@ -1,0 +1,35 @@
+{
+  "name": "Raul Davila",
+  "bio": "I am a Front End developer with a passion for building digital experiences.",
+  "image": "/avatar-img.webp",
+  "links": [
+    {
+      "title": "mi pagina web",
+    "url": "#",
+    "image": "/avatar-img.webp"
+    },
+    {
+      "title": "portfolio",
+    "url": "#",
+    "image": "/avatar-img.webp"
+    }
+  ],
+  "socials": [
+    {
+      "title": "facebook",
+      "url": "#"
+    },
+    {
+      "title": "instagram",
+      "url": "#"
+    },
+    {
+      "title": "linkedIn",
+      "url": "#"
+    },
+    {
+      "title": "github",
+      "url": "#"
+    }
+  ]
+}
