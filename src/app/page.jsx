@@ -2,6 +2,7 @@ import Image from "next/image";
 import data from "@/data";
 
 import { CardLink } from "@/components/CardLink";
+import { FacebookIcon, InstagramIcon, LinkedinIcon, GithubIcon, TwitterIcon, LinkedinIcon2 } from "@/assets/icons/IconsComponent";
 
 
 export default function Home() {
@@ -23,7 +24,27 @@ export default function Home() {
             <CardLink key={index} {...link} />
           ))
         }
-        
+      </article>
+      <article className=" flex flex-row">
+        {
+          data.socials.map((social, index) => (
+            <a
+              key={index}
+              href={social.url}
+              target="_blank"
+              rel="noreferrer"
+              className="mx-2 w-8 h-8 text-red-600"
+            >
+              {social.icon === "FacebookIcon" && <FacebookIcon />}
+              {social.icon === "InstagramIcon" && <InstagramIcon />}
+              {social.icon === "LinkedinIcon" && <LinkedinIcon />}
+              {social.icon === "GithubIcon" && <GithubIcon />}
+              {social.icon === "TwitterIcon" && <TwitterIcon />}
+              {social.icon === "LinkedinIcon2" && <LinkedinIcon2 />}
+              
+            </a>
+          ))
+        }
       </article>
     </main>
   );

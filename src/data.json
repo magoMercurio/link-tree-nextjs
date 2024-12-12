@@ -17,19 +17,38 @@
   "socials": [
     {
       "title": "facebook",
-      "url": "#"
+      "url": "www.facebook.com",
+      "icon": "FacebookIcon"
     },
     {
       "title": "instagram",
-      "url": "#"
-    },
-    {
-      "title": "linkedIn",
-      "url": "#"
+      "url": "www.instagram.com",
+      "icon": "InstagramIcon"
     },
     {
       "title": "github",
-      "url": "#"
+      "url": "www.github.com",
+      "icon": "GithubIcon"
+    },
+    {
+      "title": "linkedin",
+      "url": "www.linkedin.com",
+      "Icon": "LinkedInIcon"
+    },
+    {
+      "title": "twitter",
+      "url": "www.twitter.com",
+      "icon": "TwitterIcon"
+    },
+    {
+      "title": "linkedin2",
+      "url": "www.linkedin.com",
+      "icon": "LinkedinIcon2"
+    },
+    {
+      "title": "linkedin",
+      "url": "www.linkedin.com",
+      "icon": "LinkedInIcon"
     }
   ]
 }
